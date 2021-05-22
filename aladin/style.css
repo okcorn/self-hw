@@ -1,0 +1,148 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+.top {
+  height:1000px;
+  background: linear-gradient(#FFF1A6, #13AE8D);
+  padding-top:50px;
+}
+.top-image {
+  display:flex;
+  margin: 0px auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position:relative;
+  border: 5px solid white;
+  width:680px;
+  height:630px;
+}
+h3, h1, .gift-notice, .detail, .middle-menu {
+  font-family: 'Hanna', sans-serif;
+}
+h3 {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+}
+h1 {
+  display: inline-block;
+  color:#13AE8D;
+  font-weight:bold;
+  font-size: 75px;
+}
+.gift-image {
+  width:350px;
+  height:350px;
+  margin:40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.lens {
+  width:50px;
+  height:50px;
+  position:absolute;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  right:18%;
+  bottom:13%;
+}
+.main-notice{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.gift-notice{
+  display: block;
+  text-align: center;
+  padding-top:40px;
+  padding-bottom:20px;
+  font-size: 35px;
+  line-height: 40px;
+}
+.detail {
+  display: block;
+  width: 300px;
+  height:40px;
+  text-align: center;
+  padding:20px;
+  margin:10px;
+  font-size: 35px;
+  background-color: #333333;
+  border-radius: 1.5em;
+  color:white;
+}
+.notice{
+  display:flex;
+  margin: 0px auto;
+  justify-content:right;
+  flex-direction: column;
+  align-items:flex-start;
+  width:680px;
+  color:white;
+  line-height: 20px;
+  padding:20px;
+  list-style-type:disc;
+}
+.middle {
+  background-color: #333333;
+  color:white;
+  text-align:center;
+}
+.middle-menu {
+  display: inline-block;
+  padding:30px 0px;
+  font-size: 32px;
+}
+#school:after {
+  content:"";
+  height:15px;
+  margin : 20px;
+  border-right: 1px solid white;
+  }
+#school:before {
+    content:"";
+    height:15px;
+    margin : 20px;
+    border-right: 1px solid white;
+  }
+.list {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  width:800px;
+}
+.list-top {
+  font-size:30px;
+  display: flex;
+  justify-content:space-between;
+  padding-top:20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+.list-head{
+  display:inline;
+}
+.list-all {
+  display:inline;
+  text-align: right;
+  font-size:20px;
+  line-height:40px;
+}
+.book-list{
+  border-bottom:1px solid black;
+  padding-top:30px;
+  padding-bottom:30px;
+}
+.book-detail{
+  text-align: center;
+  padding:20px 10px 10px 10px;
+  line-height: 20px;
+  font-size:14px;
+}
