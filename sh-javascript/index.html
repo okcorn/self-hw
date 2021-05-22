@@ -8,13 +8,24 @@
 </head>
 <body>
   <h1><a href="">WEB</a></h1>
-  <input type="button" value="night" onclick="
+  <!--input type="button" value="night" onclick="
   document.querySelector('body').style.backgroundColor = 'black';
   document.querySelector('body').style.color = 'white';
   ">
   <input type="button" value="day" onclick="
     document.querySelector('body').style.backgroundColor = 'white';
   document.querySelector('body').style.color = 'black';
+  "-->
+  <input id="night-day" type="button" value="night" onclick="
+  if (document.querySelector('#night-day').value === 'night') {
+  document.querySelector('body').style.backgroundColor = 'black';
+  document.querySelector('body').style.color = 'white';
+  document.querySelector('#night-day').value = 'day';
+  } else {
+  document.querySelector('body').style.backgroundColor = 'white';
+  document.querySelector('body').style.color = 'black';
+  document.querySelector('#night-day').value = 'night';
+  }
   ">
   <ol>
     <li><a href="">HTML</a></li>
