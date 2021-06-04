@@ -32,30 +32,40 @@ body {
   animation : fadeIn 0.5s linear;
 }
 .js-clock {
-  font-size: 30px;
-  margin-bottom: 0;
+  font-size: 70px;
 }
 .js-greetings, .greetings {
-  font-size: 20px;
+  font-size: 60px;
+  margin:0 auto;
 }
 input {
   background: transparent;
   border: none;
 }
+.input_todo {
+  display:inline-block;
+  margin-top:30px;
+  line-height:30px;
+  font-size: 30px;
+}
 .input_todo::placeholder {
   color:white;
   border-bottom: solid 1px white ;
   text-align: center;
-  font-size: 10px;
+  font-size: 30px;
 }
 .input_todo:focus{
   border: none;
   text-align: center;
   color: white;
-  font-size: 10px;
+  font-size: 30px;
+}
+.js-todoForm {
+  width:auto;
 }
 .input_name {
-  margin-bottom:20px;
+  margin-bottom:40px;
+  font-size: 40px;
 }
 .input_name:focus {
   border: none;
@@ -66,7 +76,7 @@ input {
   color:white;
   border-bottom: solid 1px white ;
   text-align: center;
-  font-size: 16px;
+  font-size: 40px;
 }
 .js-clock, .js-form, .form, .js-todoForm, .js-greetings, .greetings, .js-todoli {
   text-align: center;
@@ -75,12 +85,12 @@ input {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 10px;
+  font-size: 20px;
 }
 .js-todoli {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  font-size: 10px;
+  font-size: 30px;
 }
