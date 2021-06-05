@@ -1,0 +1,13 @@
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+.changeButton {
+  display: block;
+  text-align: center;
+  margin:0 auto;
+  color:white;
+  background-color: gray;
+  border: none;
+  padding: 20px 40px;
+}
