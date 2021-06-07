@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta id="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Carousel Project</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="image-box">
+        <img src="./images/vanilla_coding_logo.png" class="logo" />
+      </div>
+      <h1>Carousel</h1>
+      <!-- Carousel Start -->
+      <div class = "container">
+        <form class="btnContainerLeft">
+         <input type="button" class="btnLeft" value="←">
+        </form>
+        <div class = "imageList imagePicture">
+          <img src="./images/image-1.png" alt="강의사진" class = "imagePicture">
+        </div>
+        <form class="btnContainerRight">
+          <input type="button" class="btnRight" value="→">
+        </form>
+      </div>
+        <form class="indexButton">
+          <input type="button" class="indexImage" value="●" style="color:black" onclick = "moveImage1();" id="1">
+          <input type="button" class="indexImage" value="●" onclick = "moveImage2();" id="2">
+          <input type="button" class="indexImage" value="●" onclick = "moveImage3();" id="3">
+          <input type="button" class="indexImage" value="●" onclick = "moveImage4();" id="4">
+          <input type="button" class="indexImage" value="●" onclick = "moveImage5();" id="5">
+        </form>
+            <!-- Carousel End -->
+    </section>
+    <script src="imageList.js"></script>
+  </body>
+</html>

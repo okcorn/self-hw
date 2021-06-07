@@ -1,0 +1,65 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+.image-box {
+  margin:0 auto;
+  display:block;
+  text-align: center;
+}
+.logo {
+  display: block;
+  width:150px;
+  padding-top:50px;
+  margin:0 auto;
+  text-align: center;
+}
+h1 {
+  display: block;
+  margin:0 auto;
+  padding: 20px 0;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 55px;
+}
+.container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.btnLeft, .btnRight {
+  padding:20px;
+  background-color: white;
+  border:none;
+  border-radius: 25%;
+  font-size: 40px;
+  font-weight: bold;
+}
+.btnRight{
+  margin-right:200px;
+}
+.btnLeft{
+  margin-left:200px;
+}
+.imagePicture {
+  width: 400px;
+  margin:0 auto;
+  display : block;
+  padding-bottom:20px;
+}
+.indexButton {
+  display: flex;
+  justify-content:center;
+}
+.indexImage {
+  display:inline-block;
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  padding:10px;
+  border:none;
+  color:gray;
+}
