@@ -1,0 +1,53 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  display: block;
+  margin:0 auto;
+  padding-bottom:20px;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 70px;
+}
+h2 {
+  margin:0 auto;
+  text-align: center;
+  font-size: 50px;
+}
+.nowYear{
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+}
+.logo {
+  display:block;
+  width:150px;
+  margin:0 auto;
+  padding : 50px;
+}
+
+.show {
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+}
+
+#contentbody, .oneWeekmain, .oneWeek {
+  text-align: center;
+}
+
+.nextMonth, .lastMonth {
+  font-size : 25px;
+  border : none;
+  font-weight: bold;
+  background-color: transparent;
+  padding:50px;
+}
