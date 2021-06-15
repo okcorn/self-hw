@@ -1,0 +1,52 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  display: block;
+  font-family: "Pacifico", cursive;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+.logo, .image-box {
+  width : 300px;
+  margin: 0 auto;
+  padding: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.gameStart, .numberInput, .result, .gameReStart {
+  padding:10px;
+  margin:20px;
+}
+
+input {
+  font-size: 20px;
+}
+
+.resultList {
+  display:block;
+  width: 200px;
+  font-size: 25px;
+  font-weight:bold;
+  padding:0;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.restartBtn {
+  visibility: hidden;
+}
