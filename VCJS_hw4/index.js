@@ -24,6 +24,7 @@ function resetGame() {
   realNum = "";
   currentArray = "";
   realArray = "";
+  limitation= [];
   countNum = 0;
   resultList.removeChild(li);
   userInput.disabled = false;
@@ -95,10 +96,13 @@ if (limitation.length === 10) {
 //숫자 만드는 함수
 function randomNum() {
   realNum = Math.floor(Math.random()*1000);
-  if (realNum < 100) {
+  if (realNum > 99) {
+    realNum = String(realNum)
+  }  else if ( 10 <= realNum < 100) {
     realNum = `0${realNum}`;
     realNum = String(realNum)
-  } else {
+  }  else {
+    realNum = `00${realNum}`;
     realNum = String(realNum)
   }
 }
@@ -111,7 +115,9 @@ function handleSubmit (event) {
   console.log(currentValue);
   userInput.value ="";
   if (currentValue.length !== 3) {
-    alert('세자리 숫자로 다시 입력해주세요!')
+   limitation.pop();
+   alert('세자리 숫자로 다시 입력해주세요!')
+   return limitation;
   } else {}
   resultShow(currentValue);
 }
@@ -127,6 +133,7 @@ function reset (event) {
 }
 
 function init() {
+  randomNum();
   gameBtn.addEventListener("click", makeNum);
   numberInput.addEventListener("submit", handleSubmit);
   restartBtn.addEventListener("click", reset);
