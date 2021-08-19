@@ -1,0 +1,108 @@
+h1 {
+  padding: 10px 0 5px 0;
+  text-align: center;
+}
+
+.main-page {
+  position: relative;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.content-page {
+  position: relative;
+}
+
+.start-button {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin: 15px auto;
+  background-color: #cecece;
+  border-style: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #27d6c5;
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.start-image {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.game-page {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 0 auto;
+}
+
+.game-content {
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  margin: 0 auto;
+}
+
+.game-content:hover {
+  cursor: pointer;
+}
+
+.item-cover {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url(/image/card.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.item-image {
+  width: 100px;
+  background-color: white;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.game-timer,
+.solved-number {
+  display: block;
+  font-size: 20px;
+}
+
+.restart-button {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 120px;
+  height: 50px;
+  background-color: #cecece;
+  border-style: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+}
