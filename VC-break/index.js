@@ -18,10 +18,10 @@ const FailPageText = "주민들이 기다리고 있어요😎 다시 해봅시�
 const successPageText = "주민들을 다 찾아주셨군요!🥳";
 
 const gameAudioSound = new Audio();
-gameAudioSound.src = "/sound/main-music.mp3";
+gameAudioSound.src = "./sound/main-music.mp3";
 
 const endAudioSound = new Audio();
-endAudioSound.src = "/sound/end-music.mp3";
+endAudioSound.src = "./sound/end-music.mp3";
 
 let timer = 30;
 let leftgames = 8;
