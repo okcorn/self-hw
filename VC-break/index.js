@@ -119,14 +119,14 @@ function selectWrongPair() {
 
 function showFailGamePage() {
   showResultGamepage();
-  startImageElement.src = "/image/restart.jpeg";
+  startImageElement.src = "./image/restart.jpeg";
   introTextElement.textContent = FailPageText;
   resetElements();
 }
 
 function showSuccessGamePage() {
   showResultGamepage();
-  startImageElement.src = "/image/complete1.png";
+  startImageElement.src = "./image/complete1.png";
   introTextElement.textContent = successPageText;
   resetElements();
 }
@@ -155,7 +155,7 @@ function handleRestartButtonClick() {
   gamePageElement.classList.add("hidden");
   mainPageElement.classList.remove("hidden");
   startButtonElement.classList.remove("hidden");
-  startImageElement.src = "/image/main.jpeg";
+  startImageElement.src = "./image/main.jpeg";
   introTextElement.textContent = firstPageText;
   restartButtonElement.classList.add("hidden");
 
