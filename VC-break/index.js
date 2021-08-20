@@ -75,7 +75,7 @@ function showGameContents() {
     divElement.classList.add("game-list");
     divElement.innerHTML = `
     <div class="item-cover" id="${imageNumberArray[i]}"></div>
-    <img src="/image/${imageNumberArray[i]}.png" alt="주민 이미지" class="item-image"/>
+    <img src="./image/${imageNumberArray[i]}.png" alt="주민 이미지" class="item-image"/>
     `;
   }
 
